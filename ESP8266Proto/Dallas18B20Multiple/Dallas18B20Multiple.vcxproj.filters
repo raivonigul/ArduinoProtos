@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="Dallas18B20Multiple.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.Dallas18B20Multiple.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
