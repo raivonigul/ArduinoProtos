@@ -17,8 +17,8 @@ DeviceAddress insideThermometer, outsideThermometer;
 
 void setup(void)
 {
-	pinMode(3, OUTPUT);
-	digitalWrite(3, HIGH);
+	pinMode(D2, OUTPUT);
+	digitalWrite(D2, HIGH);
 
 	// start serial port
 	Serial.begin(115200);
@@ -134,7 +134,7 @@ void printData(DeviceAddress deviceAddress)
 */
 void loop(void)
 {
-	digitalWrite(3, HIGH);
+	digitalWrite(D2, HIGH);
 	//delay(1000);
 	// call sensors.requestTemperatures() to issue a global temperature 
 	// request to all devices on the bus
@@ -145,6 +145,6 @@ void loop(void)
 	// print the device information
 	printData(insideThermometer);
 	printData(outsideThermometer);
-	digitalWrite(3, LOW);
+	digitalWrite(D2, LOW);
 	delay(10000);
 }
