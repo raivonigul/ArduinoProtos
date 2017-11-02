@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266WatchDog", "ESP8266Proto\ESP8266Proto.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dallas18B20Multiple", "Dallas18B20Multiple\Dallas18B20Multiple.vcxproj", "{1AA87CB8-3918-4905-A6B1-8F4D89F0AA2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dallas18B20Parasit", "Dallas18B20Parasit\Dallas18B20Parasit.vcxproj", "{CD389FDE-DD13-40B3-B9E9-DEF0D56B481C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{1AA87CB8-3918-4905-A6B1-8F4D89F0AA2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AA87CB8-3918-4905-A6B1-8F4D89F0AA2B}.Debug|x86.Build.0 = Debug|Win32
+		{1AA87CB8-3918-4905-A6B1-8F4D89F0AA2B}.Release|x86.ActiveCfg = Release|Win32
+		{1AA87CB8-3918-4905-A6B1-8F4D89F0AA2B}.Release|x86.Build.0 = Release|Win32
+		{CD389FDE-DD13-40B3-B9E9-DEF0D56B481C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD389FDE-DD13-40B3-B9E9-DEF0D56B481C}.Debug|x86.Build.0 = Debug|Win32
+		{CD389FDE-DD13-40B3-B9E9-DEF0D56B481C}.Release|x86.ActiveCfg = Release|Win32
+		{CD389FDE-DD13-40B3-B9E9-DEF0D56B481C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB4FF0C-ABFD-4537-AFBC-E3068C717751}
+	EndGlobalSection
+EndGlobal

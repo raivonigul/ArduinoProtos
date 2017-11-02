@@ -106,6 +106,6 @@ typedef long __PTRDIFF_TYPE__;
 #define interrupts() sei()
 #define noInterrupts() cli()
 
-#include "BH1750.ino"
+#include "Dallas18B20Multiple.ino"
 #endif
 #endif
