@@ -4,7 +4,8 @@
 
 // Data wire is plugged into port 2 on the Arduino
 #define ONE_WIRE_BUS D4
-#define TEMPERATURE_PRECISION 11
+//precision 10 - 0.25c
+#define TEMPERATURE_PRECISION 10
 
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
